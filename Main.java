@@ -39,7 +39,7 @@ public class Main
 	
 	}
 	
-	public static printOlympians(){
+	public static void printOlympians(){
 	OlympianManager OlympianManager = new OlympianManager();
 	OlympianManager.printOlympians();
 	} 

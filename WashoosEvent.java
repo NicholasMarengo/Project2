@@ -12,7 +12,7 @@ public class WashoosEvent extends Events{
 	}
 	
 
-	@Override public String getExtraInfo{
+	@Override public String getExtraInfo(){
 		return "_has Auto Win Stick_10 Washoos";
 	}
 }

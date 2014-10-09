@@ -10,5 +10,8 @@ public class CanJamEvent extends Events {
 			super("CanJam", 21, true, 50);
 		}
 		
+		@Override public String getExtraInfo(){
+			return " has a frisbee size of 6 inches";
+		}
 	}
 

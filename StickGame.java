@@ -10,7 +10,8 @@ public class StickGame extends Events {
 	}
 
 
-	@Override public String getExtraInfo{
+	@Override public String getExtraInfo(){
 		return "_has a frisbee size of 5";
 
+}
 }

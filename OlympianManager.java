@@ -9,23 +9,23 @@ public class OlympianManager {
 	
 		public void olympians(String args[]){
 			{	
-			olympian[] olympians = new olympian[16];
-			olympians[0] = new olympian("Tito", male, 18);
-			olympians[1] = new olympian("Brandon", male, 19);
-			olympians[2] = new olympian("Alyssa", female, 19);
-			olympians[3] = new olympian("Duane", male, 19);
-			olympians[4] = new olympian("Rachelle", female, 19);
-			olympians[5] = new olympian("Jae", male, 18);
-			olympians[6] = new olympian("Zack", male, 19);
-			olympians[7] = new olympian("Jon", male, 19);
-			olympians[8] = new olympian("Gab", female, 18);
-			olympians[9] = new olympian("Talia", female, 20);
-			olympians[10] = new olympian("Brian", male, 99);
-			olympians[11] = new olympian("Ethan", male, 19);
-			olympians[12] = new olympian("Max", male, 19);
-			olympians[13] = new olympian("Will", male, 19);
-			olympians[14] = new olympian("Nicholas", male, 19);
-			olympians[15] = new olympian("Jack", male, 19);}
+			Olympian[] olympians = new Olympian[16];
+			olympians[0] = new Olympian("Tito", Sex.MALE, 18);
+			olympians[1] = new Olympian("Brandon", Sex.MALE, 19);
+			olympians[2] = new Olympian("Alyssa", Sex.FEMALE, 19);
+			olympians[3] = new Olympian("Duane", Sex.Male, 19);
+			olympians[4] = new Olympian("Rachelle", Sex.FEMALE, 19);
+			olympians[5] = new Olympian("Jae", Sex.MALE, 18);
+			olympians[6] = new Olympian("Zack", Sex.MALE, 19);
+			olympians[7] = new Olympian("Jon", Sex.MALE, 19);
+			olympians[8] = new Olympian("Gab", Sex.FEMALE, 18);
+			olympians[9] = new Olympian("Talia", Sex.FEMALE, 20);
+			olympians[10] = new Olympian("Brian", Sex.MALE, 99);
+			olympians[11] = new Olympian("Ethan", Sex.Male, 19);
+			olympians[12] = new Olympian("Max", Sex.MALE, 19);
+			olympians[13] = new Olympian("Will", Sex.MALE, 19);
+			olympians[14] = new Olympian("Nicholas", Sex.MALE, 19);
+			olympians[15] = new Olympian("Jack", Sex.MALE, 19);}
 				
 			
 			for(int i=0; i<olympians.length; i++) {
@@ -40,11 +40,4 @@ public class OlympianManager {
 			}
 				
 			}
-
-
 }
-
-
-
-
-

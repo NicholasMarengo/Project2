@@ -1,11 +1,8 @@
-import Main.Sex;
+
 
 
 public class Olympian {
 	
-	public enum Sex {
-		MALE, FEMALE
-		}
 	
 		public String name;
 		public Sex sex;
